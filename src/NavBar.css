@@ -1,0 +1,16 @@
+.NavBar {
+    background-color: black;
+    padding: 18px;
+}
+
+
+.NavBar a {
+    padding: 20px;
+    color: rgb(27, 242, 124);
+    margin: 5px;
+    font-size: 25px;   
+}
+
+.NavBar a.active{
+    color: goldenrod;
+}

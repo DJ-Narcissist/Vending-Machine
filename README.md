@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+const Pretzel = () => {
+    return ( 
+        <div>
+            <h2>Pretzel</h2>
+            <img 
+                src={snackPretzel} // Corrected import statement
+                alt="Pretzel"
+                style={{ maxWidth: '25%', height: '25%' }}
+            />
+            <p>Summary of Pretzel</p>
+            <li>Per 1 Serving: 
+                <ul>140 calories</ul> 
+                <ul>10 g total fat, 9 g sat fat (0% DV)</ul> 
+                <ul>450 mg sodium (20% DV)</ul>
+                <ul> 23g </ul>
+                <ul> 38 g total sugars. No caffeine.</ul> 
+                <ul> 3 g protein</ul>
+            </li>
+        </div>
+    );
+
+}

@@ -1,0 +1,38 @@
+
+
+/* SnackStyles.css */
+
+.snack-container {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #a61010a6;
+}
+
+.snack-title {
+    font-size: 24px;
+    color: #16d760;
+}
+
+.snack-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.snack-summary {
+    font-style: italic;
+    color: #0bc43ac0;
+}
+
+.snack-details {
+    list-style-type: none;
+    padding: 0;
+}
+
+.snack-details li {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #1ae34ce5;
+}
